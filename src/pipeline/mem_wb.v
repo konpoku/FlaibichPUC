@@ -11,7 +11,7 @@ module mem_wb(
     
     output reg[4:0]                wb_waddr_o,
     output reg                     wb_we_o,
-    output reg[31:0]               wb_wdata_o
+    (* MAX_FANOUT = 10 *)output reg[31:0]               wb_wdata_o
 );
 
     always @ (posedge clk) begin

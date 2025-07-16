@@ -12,7 +12,7 @@ module uart_ctrl (
     input  wire         rxd
 );
 
-    parameter clk_freq = 104*1000000;
+    parameter clk_freq = 109*1000000;
     parameter baud = 9600;
     //parameter baud = 5*1000000; //debug
     

@@ -223,6 +223,7 @@ module FlaibichPUC(
 	
 	mem mem_0(
 		.rst(rst),
+		.clk(clk),
 
 		.waddr_i(mem_waddr_i),
 		.we_i(mem_we_i),

@@ -13,6 +13,14 @@ module icache(
     input wire          stall_from_bus,     // Stall signal from bus
     input wire [31:0]   inst_i              // Instruction from SRAM
 );
+    //reg [31:0]   inst_i_reg;
+    //always @(negedge clk) begin
+    //    if (rst) begin
+    //        inst_i_reg <= `ZeroWord;
+    //    end else begin
+    //        inst_i_reg <= inst_i;
+    //    end
+    //end
 
     //================================================================
     // Parameters

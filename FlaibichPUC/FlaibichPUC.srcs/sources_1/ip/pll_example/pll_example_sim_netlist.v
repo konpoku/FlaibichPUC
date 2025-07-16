@@ -1,7 +1,7 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-// Date        : Thu Jul 17 00:55:40 2025
+// Date        : Thu Jul 17 04:43:41 2025
 // Host        : LAPTOP-4DRR49VU running 64-bit Ubuntu 24.04.2 LTS
 // Command     : write_verilog -force -mode funcsim
 //               /home/konpoku/FlaibichPUC/FlaibichPUC/FlaibichPUC.srcs/sources_1/ip/pll_example/pll_example_sim_netlist.v
@@ -93,14 +93,14 @@ module pll_example_pll_example_clk_wiz
   (* BOX_TYPE = "PRIMITIVE" *) 
   PLLE2_ADV #(
     .BANDWIDTH("OPTIMIZED"),
-    .CLKFBOUT_MULT(27),
+    .CLKFBOUT_MULT(24),
     .CLKFBOUT_PHASE(0.000000),
     .CLKIN1_PERIOD(20.000000),
     .CLKIN2_PERIOD(0.000000),
-    .CLKOUT0_DIVIDE(13),
+    .CLKOUT0_DIVIDE(11),
     .CLKOUT0_DUTY_CYCLE(0.500000),
     .CLKOUT0_PHASE(0.000000),
-    .CLKOUT1_DIVIDE(27),
+    .CLKOUT1_DIVIDE(24),
     .CLKOUT1_DUTY_CYCLE(0.500000),
     .CLKOUT1_PHASE(0.000000),
     .CLKOUT2_DIVIDE(1),
